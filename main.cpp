@@ -121,6 +121,7 @@ vector<char> stworzONP(string wejscie)
             }
         }
         else if (wejscie[i]=='=') break;
+        else continue;
     }
     for(i = stos.size()-1;i>-1;i--)
     {
