@@ -184,7 +184,7 @@ double obliczenieONP(vector<char> ONP)
 int main()
 {
 
-    string we = "1.5 * 2";
+    string we;
     cout << "Podaj wyrazenie: " << endl;
     getline(cin, we);
 
